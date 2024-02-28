@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherscale</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div >
+    <input type="text" placeholder="enter city name" id="box">
+    <button onclick="fetchDetails()">Fetch</button>
+  </div>
+   <div style="display: flex; justify-content: center;">
+    <div class="card mt-5" id="result">
+      <div class="container">
+        <div class="cloud front">
+          <span class="left-front"></span>
+          <span class="right-front"></span>
+        </div>
+        <span class="sun sunshine"></span>
+        <span class="sun"></span>
+        <div class="cloud back">
+          <span class="left-back"></span>
+          <span class="right-back"></span>
+        </div>
+      </div>
+    
+      <div class="card-header">
+        <span>Messadine, Susah<br>Tunisia</span>
+        <span>March 13</span>
+      </div>
+    
+      <span class="temp">23°</span>
+    
+      <div class="temp-scale">
+        <span>Celcius</span>
+      </div>
+    </div>
+   </div>
+   
+</body>
+<script src="./script.js"></script>
+</html>
